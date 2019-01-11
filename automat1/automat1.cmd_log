@@ -1,0 +1,29 @@
+xst -intstyle ise -ifn "C:/Users/Robert/Desktop/Fakultet/VHDLovi/automat1/automat1.xst" -ofn "C:/Users/Robert/Desktop/Fakultet/VHDLovi/automat1/automat1.syr" 
+xst -intstyle ise -ifn "C:/Users/Robert/Desktop/Fakultet/VHDLovi/automat1/automat1.xst" -ofn "C:/Users/Robert/Desktop/Fakultet/VHDLovi/automat1/automat1.syr" 
+xst -intstyle ise -ifn "C:/Users/Robert/Desktop/Fakultet/VHDLovi/automat1/automat1.xst" -ofn "C:/Users/Robert/Desktop/Fakultet/VHDLovi/automat1/automat1.syr" 
+xst -intstyle ise -ifn "C:/Users/Robert/Desktop/Fakultet/VHDLovi/automat1/automat1.xst" -ofn "C:/Users/Robert/Desktop/Fakultet/VHDLovi/automat1/automat1.syr" 
+xst -intstyle ise -ifn "C:/Users/Robert/Desktop/Fakultet/VHDLovi/automat1/automat1.xst" -ofn "C:/Users/Robert/Desktop/Fakultet/VHDLovi/automat1/automat1.syr" 
+xst -intstyle ise -ifn "C:/Users/Robert/Desktop/Fakultet/VHDLovi/automat1/automat1.xst" -ofn "C:/Users/Robert/Desktop/Fakultet/VHDLovi/automat1/automat1.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim automat1.ngc automat1_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-4 automat1.ngc automat1.ngd  
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o automat1_map.ncd automat1.ngd automat1.pcf 
+par -w -intstyle ise -ol high -t 1 automat1_map.ncd automat1.ncd automat1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml automat1.twx automat1.ncd -o automat1.twr automat1.pcf 
+bitgen -intstyle ise -f automat1.ut automat1.ncd 
+vhdtdtfi -lib work automat1.vhd -prj automat1 -o automat1.spl -module automat1 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e automat1.spl C:/Users/Robert/Desktop/Fakultet/VHDLovi/automat1/automat1.sym 
+xst -intstyle ise -ifn "C:/Users/Robert/Desktop/ARS 23.6/automat1/automat1.xst" -ofn "C:/Users/Robert/Desktop/ARS 23.6/automat1/automat1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-4 "automat1.ngc" automat1.ngd  
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o automat1_map.ncd automat1.ngd automat1.pcf 
+par -w -intstyle ise -ol high -t 1 automat1_map.ncd automat1.ncd automat1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml automat1.twx automat1.ncd -o automat1.twr automat1.pcf 
+xst -intstyle ise -ifn "C:/Users/Robert/Desktop/ARS 23.6/automat1/automat1.xst" -ofn "C:/Users/Robert/Desktop/ARS 23.6/automat1/automat1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-4 "automat1.ngc" automat1.ngd  
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o automat1_map.ncd automat1.ngd automat1.pcf 
+par -w -intstyle ise -ol high -t 1 automat1_map.ncd automat1.ncd automat1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml automat1.twx automat1.ncd -o automat1.twr automat1.pcf 
+xst -intstyle ise -ifn "C:/Users/Robert/Desktop/ARS 23.6/automat1/automat1.xst" -ofn "C:/Users/Robert/Desktop/ARS 23.6/automat1/automat1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-4 "automat1.ngc" automat1.ngd  
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o automat1_map.ncd automat1.ngd automat1.pcf 
+par -w -intstyle ise -ol high -t 1 automat1_map.ncd automat1.ncd automat1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml automat1.twx automat1.ncd -o automat1.twr automat1.pcf 

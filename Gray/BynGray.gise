@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="BynGray.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="BynGray.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="BynGray.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="BynGray.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="BynGray.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="BynGray.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="BynGray.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="BynGray.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="BynGray.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="BynGray.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="BynGray.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="BynGray.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="BynGray.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="BynGray.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="BynGray.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="BynGray.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="BynGray.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="BynGray.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="BynGray.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="BynGray.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="BynGray_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="BynGray_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="BynGray_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="BynGray_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="BynGray_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="BynGray_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="BynGray_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="BynGray_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="BynGray_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="BynGray_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="BynGray_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="BynGray_par.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="BynGray_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="BynGray_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="BynGray_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="BynGray_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="BynGray_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mainGray_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mainGray_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="mainGray_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mainGray_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
+    <file xil_pn:branch="PostSynthSim" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/BynGray_synthesis.nlf"/>
+    <file xil_pn:branch="PostSynthSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/synthesis/BynGray_synthesis.v"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1467034048" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1467034048">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1467034989" xil_pn:in_ck="-1942513308922783820" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1467034989">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BynGray.vhd"/>
+      <outfile xil_pn:name="mainGray.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1467034924" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4927544317114980888" xil_pn:start_ts="1467034924">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1467034924" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3008859772414719804" xil_pn:start_ts="1467034924">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1467034057" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-5311552658036788670" xil_pn:start_ts="1467034057">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1467034995" xil_pn:in_ck="-1942513308922783820" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1467034995">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BynGray.vhd"/>
+      <outfile xil_pn:name="mainGray.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1467035002" xil_pn:in_ck="-1942513308922783820" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-2697770068084887561" xil_pn:start_ts="1467034995">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="mainGray_beh.prj"/>
+      <outfile xil_pn:name="mainGray_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1467035398" xil_pn:in_ck="-5329823791224425774" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8810372582196435194" xil_pn:start_ts="1467035397">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="mainGray_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1467033310" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1467033310">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1467033614" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="2605733258217693953" xil_pn:start_ts="1467033614">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1467033614" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-5311552658036788670" xil_pn:start_ts="1467033614">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1467033310" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1467033310">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1467033614" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="8501690061609616085" xil_pn:start_ts="1467033614">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1467033310" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="5702940744460053484" xil_pn:start_ts="1467033310">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1467033614" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="5703314341127676748" xil_pn:start_ts="1467033614">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1467033757" xil_pn:in_ck="106857884666310988" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="4063410480273766028" xil_pn:start_ts="1467033614">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="BynGray.lso"/>
+      <outfile xil_pn:name="BynGray.ngc"/>
+      <outfile xil_pn:name="BynGray.ngr"/>
+      <outfile xil_pn:name="BynGray.prj"/>
+      <outfile xil_pn:name="BynGray.stx"/>
+      <outfile xil_pn:name="BynGray.syr"/>
+      <outfile xil_pn:name="BynGray.xst"/>
+      <outfile xil_pn:name="BynGray_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1467033757" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="4094749097304781312" xil_pn:start_ts="1467033757">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1467033783" xil_pn:in_ck="106857884666302242" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="369680230969873568" xil_pn:start_ts="1467033757">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BynGray.bld"/>
+      <outfile xil_pn:name="BynGray.ngd"/>
+      <outfile xil_pn:name="BynGray_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1467033869" xil_pn:in_ck="106857884666302243" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="3373610943407121171" xil_pn:start_ts="1467033783">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BynGray.pcf"/>
+      <outfile xil_pn:name="BynGray_map.map"/>
+      <outfile xil_pn:name="BynGray_map.mrp"/>
+      <outfile xil_pn:name="BynGray_map.ncd"/>
+      <outfile xil_pn:name="BynGray_map.ngm"/>
+      <outfile xil_pn:name="BynGray_map.xrpt"/>
+      <outfile xil_pn:name="BynGray_summary.xml"/>
+      <outfile xil_pn:name="BynGray_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1467033992" xil_pn:in_ck="-4122342952003848260" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-8066324139983898644" xil_pn:start_ts="1467033869">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BynGray.ncd"/>
+      <outfile xil_pn:name="BynGray.pad"/>
+      <outfile xil_pn:name="BynGray.par"/>
+      <outfile xil_pn:name="BynGray.ptwx"/>
+      <outfile xil_pn:name="BynGray.unroutes"/>
+      <outfile xil_pn:name="BynGray.xpi"/>
+      <outfile xil_pn:name="BynGray_pad.csv"/>
+      <outfile xil_pn:name="BynGray_pad.txt"/>
+      <outfile xil_pn:name="BynGray_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1467033992" xil_pn:in_ck="106857884666302111" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="-3742689831323817471" xil_pn:start_ts="1467033942">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BynGray.twr"/>
+      <outfile xil_pn:name="BynGray.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1467034038" xil_pn:in_ck="106857884666302242" xil_pn:name="TRAN_postSynthesisSimModel" xil_pn:prop_ck="2441867602335889392" xil_pn:start_ts="1467034031">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/synthesis/BynGray_synthesis.nlf"/>
+      <outfile xil_pn:name="netgen/synthesis/BynGray_synthesis.v"/>
+    </transform>
+  </transforms>
+
+</generated_project>

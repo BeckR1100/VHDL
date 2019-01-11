@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Robert/Desktop/Fakultet/VHDLovi/MooreovStroj/testmooreovstroj_isim_beh.exe" -prj "C:/Users/Robert/Desktop/Fakultet/VHDLovi/MooreovStroj/testmooreovstroj_beh.prj" "work.testmooreovstroj" 

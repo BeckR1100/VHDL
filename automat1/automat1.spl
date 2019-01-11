@@ -1,0 +1,6 @@
+[Inputs]
+input0
+clock
+[Outputs]
+y
+[BiDir]

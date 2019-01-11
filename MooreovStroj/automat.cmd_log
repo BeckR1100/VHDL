@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "C:/Users/Robert/ars/MooreovStroj/automat.xst" -ofn "C:/Users/Robert/ars/MooreovStroj/automat.syr" 
+xst -intstyle ise -ifn "C:/Users/Robert/ars/MooreovStroj/automat.xst" -ofn "C:/Users/Robert/ars/MooreovStroj/automat.syr" 
+xst -intstyle ise -ifn "C:/Users/Robert/ars/MooreovStroj/automat.xst" -ofn "C:/Users/Robert/ars/MooreovStroj/automat.syr" 
+xst -intstyle ise -ifn "C:/Users/Robert/ars/MooreovStroj/automat.xst" -ofn "C:/Users/Robert/ars/MooreovStroj/automat.syr" 
+xst -intstyle ise -ifn "C:/Users/Robert/ars/MooreovStroj/automat.xst" -ofn "C:/Users/Robert/ars/MooreovStroj/automat.syr" 
+xst -intstyle ise -ifn "C:/Users/Robert/ars/MooreovStroj/automat.xst" -ofn "C:/Users/Robert/ars/MooreovStroj/automat.syr" 
+xst -intstyle ise -ifn "C:/Users/Robert/ars/MooreovStroj/automat.xst" -ofn "C:/Users/Robert/ars/MooreovStroj/automat.syr" 
+xst -intstyle ise -ifn "C:/Users/Robert/ars/MooreovStroj/automat.xst" -ofn "C:/Users/Robert/ars/MooreovStroj/automat.syr" 
+xst -intstyle ise -ifn "C:/Users/Robert/ars/MooreovStroj/automat.xst" -ofn "C:/Users/Robert/ars/MooreovStroj/automat.syr" 
+xst -intstyle ise -ifn "C:/Users/Robert/ars/MooreovStroj/automat.xst" -ofn "C:/Users/Robert/ars/MooreovStroj/automat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-4 automat.ngc automat.ngd  
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o automat_map.ncd automat.ngd automat.pcf 
+par -w -intstyle ise -ol high -t 1 automat_map.ncd automat.ncd automat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml automat.twx automat.ncd -o automat.twr automat.pcf 
+xst -intstyle ise -ifn "C:/Users/Robert/Desktop/Fakultet/VHDLovi/MooreovStroj/automat.xst" -ofn "C:/Users/Robert/Desktop/Fakultet/VHDLovi/MooreovStroj/automat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-4 automat.ngc automat.ngd  
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o automat_map.ncd automat.ngd automat.pcf 
+par -w -intstyle ise -ol high -t 1 automat_map.ncd automat.ncd automat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml automat.twx automat.ncd -o automat.twr automat.pcf 
+xst -intstyle ise -ifn "C:/Users/Robert/Desktop/Fakultet/VHDLovi/MooreovStroj/automat.xst" -ofn "C:/Users/Robert/Desktop/Fakultet/VHDLovi/MooreovStroj/automat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-4 automat.ngc automat.ngd  
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o automat_map.ncd automat.ngd automat.pcf 
+par -w -intstyle ise -ol high -t 1 automat_map.ncd automat.ncd automat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml automat.twx automat.ncd -o automat.twr automat.pcf 

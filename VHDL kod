@@ -1,0 +1,119 @@
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity AIFJ is
+    Port ( ulaz : in  STD_LOGIC;
+           reset : in  STD_LOGIC;
+           clock : in  STD_LOGIC;
+           izlaz : out  STD_LOGIC);
+end AIFJ;
+
+architecture Behavioral of AIFJ is
+SIGNAL state_present, state_next: std_logic_vector(1 DOWNTO 0);
+ CONSTANT S0: std_logic_vector(1 DOWNTO 0) := "00";
+ CONSTANT S1: std_logic_vector(1 DOWNTO 0) := "01";
+ CONSTANT S2: std_logic_vector(1 DOWNTO 0) := "10";
+ CONSTANT S3: std_logic_vector(1 DOWNTO 0) := "11";
+BEGIN
+ PROCESS( ulaz, state_present )
+ BEGIN
+ CASE state_present IS
+ WHEN S0 => IF ulaz = '1' THEN state_next <= S1;
+ELSE state_next <= S0; END IF;
+ WHEN S1 => IF ulaz = '1' THEN state_next <= S2;
+ELSE state_next <= S0; END IF;
+ WHEN S2 => IF ulaz = '1' THEN state_next <= S2;
+ELSE state_next <= S3; END IF;
+ WHEN S3 => IF ulaz = '1' THEN state_next <= S2;
+ELSE state_next <= S0; END IF;
+ WHEN OTHERS => state_next <= S0;
+ END CASE;
+ END PROCESS;
+
+PROCESS( clock, reset )
+ BEGIN
+ IF reset = '1' THEN
+ state_present <= S0;
+ ELSIF falling_edge(clock) THEN
+ state_present <= state_next;
+ END IF;
+ END PROCESS;
+
+ PROCESS( state_present )
+ BEGIN
+ CASE state_present IS
+ WHEN S0 => izlaz <= '0';
+ WHEN S1 => izlaz <= '0';
+ WHEN S2 => izlaz <= '1';
+ WHEN S3 => izlaz <= '1';
+ WHEN OTHERS => izlaz <= '0';
+ END CASE;
+ END PROCESS;
+END Behavioral;
+
+test banch kod
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+ 
+ENTITY testAIJF IS
+END testAIJF;
+ 
+ARCHITECTURE behavior OF testAIJF IS 
+ 
+    COMPONENT AIFJ
+    PORT(
+         ulaz : IN  std_logic;
+         reset : IN  std_logic;
+         clock : IN  std_logic;
+         izlaz : OUT  std_logic
+        );
+    END COMPONENT;
+    
+
+   --Inputs
+   signal ulaz : std_logic := '0';
+   signal reset : std_logic := '0';
+   signal clock : std_logic := '0';
+
+ 	--Outputs
+   signal izlaz : std_logic;
+
+   -- Clock period definitions
+   constant clock_period : time := 10 ns;
+ 
+BEGIN
+ 
+	-- Instantiate the Unit Under Test (UUT)
+   uut: AIFJ PORT MAP (
+          ulaz => ulaz,
+          reset => reset,
+          clock => clock,
+          izlaz => izlaz
+        );
+
+   -- Clock process definitions
+   clock_process :process
+   begin
+		clock <= '0';
+		wait for clock_period/2;
+		clock <= '1';
+		wait for clock_period/2;
+   end process;
+ 
+
+   -- Stimulus process
+   stim_proc: process
+   begin		
+     ulaz <= not ulaz;
+      wait for 100 ns;	
+   end process;
+	
+	stim_proc1: process
+   begin		
+     reset <= not reset;
+      wait for 150 ns;	
+   end process;
+
+END;

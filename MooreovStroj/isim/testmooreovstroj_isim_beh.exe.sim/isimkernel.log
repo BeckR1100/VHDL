@@ -1,0 +1,29 @@
+Command line:
+   testmooreovstroj_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  1444
+
+Wed Jun 22 21:06:39 2016
+
+
+ Elaboration Time: 0.1092 sec
+
+ Current Memory Usage: 1159.8 Meg
+
+ Total Signals          : 10
+ Total Nets             : 8
+ Total Signal Drivers   : 6
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 4
+ Total Traceable Variables  : 12
+ Total Scalar Nets and Variables : 376
+Total Line Count : 28
+
+ Total Simulation Time: 0.358802 sec
+
+ Current Memory Usage: 687.907 Meg
+
+Wed Jun 22 21:21:35 2016
+

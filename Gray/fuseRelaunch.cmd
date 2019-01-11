@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/.Xilinx/za slati/SKLOPJEDAN/grejev kod/BynGray/mainGray_isim_beh.exe" -prj "C:/.Xilinx/za slati/SKLOPJEDAN/grejev kod/BynGray/mainGray_beh.prj" "work.mainGray" 

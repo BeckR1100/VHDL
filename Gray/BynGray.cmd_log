@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/.Xilinx/za slati/SKLOPJEDAN/grejev kod/BynGray/BynGray.xst" -ofn "C:/.Xilinx/za slati/SKLOPJEDAN/grejev kod/BynGray/BynGray.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/za slati/SKLOPJEDAN/grejev kod/BynGray/BynGray.xst" -ofn "C:/.Xilinx/za slati/SKLOPJEDAN/grejev kod/BynGray/BynGray.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/za slati/SKLOPJEDAN/grejev kod/BynGray/BynGray.xst" -ofn "C:/.Xilinx/za slati/SKLOPJEDAN/grejev kod/BynGray/BynGray.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I "BynGray.ngc" BynGray.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o BynGray_map.ncd BynGray.ngd BynGray.pcf 
+par -w -intstyle ise -ol high -mt off BynGray_map.ncd BynGray.ncd BynGray.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml BynGray.twx BynGray.ncd -o BynGray.twr BynGray.pcf 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim BynGray.ngc BynGray_synthesis.v 

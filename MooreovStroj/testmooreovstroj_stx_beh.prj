@@ -1,0 +1,2 @@
+vhdl isim_temp "automat.vhd"
+vhdl isim_temp "testmooreovstroj.vhd"
